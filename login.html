@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Sign in</title>
+
+    </head>
+    <body>
+            <div class="conteiner2">
+              <img id="img1" src="images/cat.jpg"></img>
+      <form onsubmit="login(event)">
+          <h1>Sign in</h1>
+            <h2>If you don't have an account register <br> You can <a href="registration.html">Register here!</a></h2>
+          <label for="mail">Email</label><br><br>
+          <input type="email" id="email" placeholder="✉  Enter your email address">
+          <br><br><br>
+          <label for="password">Password</label><br><br>
+          <input type="password" id="password-input" placeholder="🗝 Enter your Password">
+          <a href="#" class="hide" onclick="return show_hide_password1(this);">
+            <img src="images/2.png" id="myImage">
+          </a>
+          <br>
+        <div class="bt1"><button type="submit">submit</button></div>
+      </form>
+      </div>
+   
+      <script src="js/1.js"></script>
+      <script type="module" src="js/2.js"></script>
+    </body>
+
+    
+</html>

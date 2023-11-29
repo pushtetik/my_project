@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Sign up</title>
+
+
+</head>
+
+<body>
+  <div class="conteiner2" id="contdop">
+    <img id="img1" src="images/cat.jpg"></img>
+    <form onsubmit="signup(event)">
+      <h1>Sign up</h1>
+      <h2>If you already have an account register <br> You can <a href="login.html">Login here! </a></h2>
+      <label for="mail">Email</label><br><br>
+      <input type="email" id="email" placeholder="✉  Enter your email address">
+      <br><br><br>
+      <label for="user">Username</label><br><br>
+      <input type="user" id="user" name="username" placeholder="👤  Enter your User Name">
+      <br><br><br>
+      <label for="password">Password</label><br><br>
+      <input type="password" id="password-input" placeholder="🗝 Enter your Password">
+      <a href="#" class="hide" onclick="return show_hide_password(this);">
+        <img src="images/2.png" id="myImage">
+      </a>
+      <br><br><br>
+      <label for="password">Confrim Password</label><br><br>
+      <input type="password" id="password-input1" placeholder="Confrim your Password"><br>
+      <div class="bt1"><button type="submit">submit</button></div>
+    </form>
+  </div>
+
+  <script src="js/1.js"></script>
+  <script type="module" src="js/3.js"></script>
+</body>
+
+
+</html>
